@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script>
+	<script src="js/script.js" type="text/javascript"></script>
+	<script src="js/modernizr.custom.46884.js" type="text/javascript"></script>
+	<script>
+	$(document).ready(function(){
+		$("#cssmenu ul li ul li a").click(function(){
+			$("#content").load("uno.html");
+			alert();
+		});
+	});
+	</script>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link rel="stylesheet" type="text/css" href="css/slicebox.css" />
+	<title>ZFT</title>
+</head>
+
+<body>
+	<div class="wrapper">
+    	<div class="rx-menu-container">
+        	<div id="logo"></div>
+        	<nav id="cssmenu">
+            	<ul>
+					<li class='active'><a href='#'><span>Homepage</span></a></li>
+					<li class='has-sub'><a href='#'><span>siti web</span></a>
+						<ul>
+							<li><a href='#'><span>Consulente</span></a></li>
+							<li><a href='#'><span>Grafico</span></a></li>
+							<li><a href='#'><span>Progettista CAD</span></a></li>
+							<li class='last'><a href='#'><span>Programmatore</span></a></li>
+						</ul>
+					</li>
+					<li class='has-sub'><a href='#'><span>app su misura</span></a>
+						<ul>
+							<li><a href='#'><span>Consulente</span></a></li>
+							<li><a href='#'><span>Grafico</span></a></li>
+							<li><a href='#'><span>Progettista CAD</span></a></li>
+							<li class='last'><a href='#'><span>Programmatore</span></a></li>
+						</ul>
+					</li>
+					<li class='has-sub'><a href='#'><span>progetti</span></a>
+						<ul>
+							<li><a href='#'><span>Tecnologia</span></a></li>
+							<li><a href='#'><span>Medicina</span></a></li>
+							<li class='last'><a href='#'><span>Energie Rinnovabili</span></a></li>
+						</ul>
+					</li>
+					<li class='last'><a href='client.php'><span>Area Clienti</span></a></li>
+				</ul>
+            </nav>
+			<div class='login'><a href="login.html">Login</a></div>
+        </div>
+		
+     
+    </div>
+	
+	</body>
+
+</html>
